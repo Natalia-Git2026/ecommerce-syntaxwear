@@ -1,24 +1,24 @@
-/*hero.css*/
+/* hero.css */
 .hero-section{
-    background: url(../../images/banners/hero.jpg) no-repeat;
-    height: 500px;
-    position: relative;
+    background: url(../../images/banners/hero.jpg) no-repeat center;
     background-size: cover;
+
+    height: 600px;
+    position: relative;
 }
 
 .hero-overlay{
-    position: absolute;
-    inset: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 4rem;
-    background: rgba(0, 0, 0, 0.25);
+    padding: 0 6rem;
 }
 
 .hero-content{
     color: #ffffff;
-    max-width: 388px;
+    max-width: 360px;
     text-align: center;
 }
 
@@ -29,7 +29,10 @@
 
 .hero-content .hero-title{
     font-size: 1.87rem;
+    margin-bottom: 40px;
     font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
 }
 
 .hero-content .hero-subtitle{
@@ -42,11 +45,10 @@
     width: 161px;
     height: 48px;
     border-radius: 25px;
-    text-decoration: none;
     color: #ffffff;
     font-weight: 400;
     padding: 10px 20px;
-    transition: background-color 0.3s, border 0.3s;
+    transition: backgound-color 0.3s, border 0.3s;
 }
 
 .btn-outline{
@@ -60,7 +62,8 @@
     color: #6329A2;
 }
 
-.btn{
+.btn:hover{
     background-color: #6329A2;
     color: #ffffff;
+    border-color: #6329A2;
 }
