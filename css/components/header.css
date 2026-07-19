@@ -1,21 +1,24 @@
 /* header.css */
 .header {
 	position: fixed;
-	top: 60px;
+	top: 1rem;
 	left: 50%;
-	transform: translate(-50%);
-	width: 1260px;
+	transform: translateX(-50%);
+	width: min(1260px, calc(100% - 1.5rem));
+	max-width: 1260px;
 	border-radius: 15px;
 	z-index: 999;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.225rem 1.25rem;
+	padding: 0.625rem 1.25rem;
 	background-color: #ffffff;
+	box-sizing: border-box;
 }
 
 .logo img {
 	height: 48px;
+	max-width: 100%;
 }
 
 .nav-center ul {
@@ -33,6 +36,7 @@
 .nav-right a:hover {
 	color: #7c3aed;
 }
+
 .nav-right ul {
 	display: flex;
 	gap: 2.5rem;
@@ -53,7 +57,7 @@
 	width: 100%;
 	align-items: center;
 	flex: 1;
-	margin-left: 10rem;
+	margin-left: 2rem;
 }
 
 .menu-toggle{
@@ -80,7 +84,9 @@
 
 @media (max-width: 1280px){
 	.header{
-		width: calc(100% - 40%);
+		top: 0.75rem;
+		width: calc(100% - 1rem);
+		padding: 0.75rem 1rem;
 	}
 
 	.menu-icon{
@@ -91,13 +97,17 @@
 		position: fixed;
 		top: 0;
 		right: -100%;
-		width: 200px;
+		width: min(85vw, 260px);
+		height: 100vh;
 		flex-direction: column;
-		padding: 80px 20px 20px;
+		padding: 90px 1.25rem 1.5rem;
 		background-color: #ffffff;
 		gap: 2rem;
 		transition: right 0.3s ease;
 		align-items: flex-start;
+		margin-left: 0;
+		box-shadow: -4px 0 20px rgba(0, 0, 0, 0.12);
+		overflow-y: auto;
 	}
 
 	.nav-center, .nav-right{
@@ -112,8 +122,9 @@
 
 	.nav-center ul, .nav-right ul{
 		flex-direction: column;
-		gap: 1.5rem;
+		gap: 1rem;
 		width: 100%;
+		align-items: center;
 	}
 
 	.nav-center ul li, .nav-right ul li{		
@@ -121,11 +132,18 @@
 	}
 
 	.nav-center a, .nav-right a{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		border-bottom: 1px solid #eeeeee;
-		padding: 0.3rem 0;
+		padding: 0.55rem 0;
 		font-size: 1rem;
+	}
+
+	.nav-right img{
 		display: block;
+		margin: 0 auto;
 	}
 
 	.menu-toggle:checked ~ .nav-container{
