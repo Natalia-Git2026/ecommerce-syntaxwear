@@ -1,30 +1,53 @@
-# SyntaxWear
+# 👟 SyntaxWear
 
-SyntaxWear é uma landing page moderna para uma loja online de tênis e sneakers, com foco em um visual clean, elegante e responsivo. O projeto foi desenvolvido com HTML e CSS, seguindo uma estrutura modular para facilitar a manutenção e a expansão do layout.
+Landing page moderna para uma loja virtual de tênis e sneakers, desenvolvida com **HTML5** e **CSS3**. O projeto foi criado com foco em **responsividade**, **organização de código** e **boas práticas de desenvolvimento Front-end**, servindo como estudo para construção de interfaces modernas de e-commerce.
 
-## Sobre o projeto
+---
 
-Este site simula a experiência inicial de um e-commerce de moda esportiva, apresentando:
+## 📖 Sobre o projeto
 
-- um header com navegação principal;
-- uma seção hero com destaque para campanha ou coleção;
-- cards de categorias como Casual, Esporte, Moderno e Futurista;
-- uma grade de produtos com destaque visual;
-- uma área de newsletter e rodapé com links e redes sociais.
+O **SyntaxWear** simula a página inicial de um e-commerce de moda urbana, oferecendo uma experiência visual limpa, moderna e intuitiva.
 
-## Objetivo
+A interface foi estruturada para destacar campanhas, categorias e produtos, utilizando uma arquitetura de CSS modular que facilita a manutenção e futuras expansões do projeto.
 
-Criar uma interface visual atrativa e responsiva para apresentar produtos de moda urbana, reforçando conceitos de estruturação de páginas, estilização com CSS e organização de arquivos.
+---
 
-## Tecnologias utilizadas
+## 🎯 Objetivos
+
+Este projeto foi desenvolvido para praticar conceitos essenciais de desenvolvimento Front-end, incluindo:
+
+- Estruturação semântica com HTML5;
+- Organização de arquivos em projetos reais;
+- Layouts responsivos utilizando Flexbox e CSS Grid;
+- Componentização de estilos;
+- Boas práticas de organização de código.
+
+---
+
+## ✨ Funcionalidades
+
+- Header com navegação principal;
+- Hero Section para campanhas promocionais;
+- Categorias de produtos em destaque;
+- Grade de produtos;
+- Seção de newsletter;
+- Rodapé com informações e redes sociais;
+- Layout responsivo para diferentes dispositivos.
+
+---
+
+## 🚀 Tecnologias utilizadas
 
 - HTML5
 - CSS3
-- Flexbox e Grid Layout
+- Flexbox
+- CSS Grid
 - Variáveis CSS
 - Google Fonts (Ubuntu)
 
-## Estrutura do projeto
+---
+
+## 📁 Estrutura do projeto
 
 ```text
 .
@@ -50,38 +73,71 @@ Criar uma interface visual atrativa e responsiva para apresentar produtos de mod
 └── README.md
 ```
 
-## Funcionalidades principais
+---
 
-- Layout totalmente responsivo para diferentes tamanhos de tela.
-- Estilo visual moderno com foco em identidade de marca.
-- Seções bem organizadas para apresentação de produtos e campanhas.
-- Componentes reutilizáveis e estrutura de CSS separada por responsabilidade.
+## 💻 Como executar o projeto
 
-## Como visualizar o projeto
-
-1. Abra a pasta do projeto no seu editor.
-2. Execute o arquivo index.html em um navegador.
-3. Ou use uma extensão como Live Server para visualizar em modo local com atualização automática.
-
-## Como executar localmente
-
-Você pode abrir o projeto diretamente no navegador:
+Clone o repositório:
 
 ```bash
-xdg-open index.html
+git clone https://github.com/Natalia-Git2026/syntaxwear.git
 ```
 
-Se preferir, use um servidor local simples, como o Live Server no VS Code.
+Acesse a pasta:
 
-## Observações
+```bash
+cd syntaxwear
+```
 
-O projeto está em fase de desenvolvimento frontend e pode ser expandido com:
+Abra o arquivo `index.html` em seu navegador ou utilize uma extensão como **Live Server** no VS Code.
 
-- páginas internas de produto;
-- carrinho de compras;
-- filtro por categoria;
-- animações e interação com JavaScript.
+---
 
-## Autor
+## 📱 Responsividade
 
-Projeto desenvolvido para prática de HTML e CSS com foco em design de e-commerce.
+O layout foi desenvolvido para oferecer uma boa experiência em:
+
+- Desktop
+- Notebook
+- Tablet
+- Smartphone
+
+---
+
+## 🛣️ Roadmap
+
+Funcionalidades planejadas para futuras versões:
+
+- [ ] Página de detalhes do produto
+- [ ] Página de categorias
+- [ ] Carrinho de compras
+- [ ] Sistema de busca
+- [ ] Filtro por categorias
+- [ ] Menu Mobile
+- [ ] Animações com CSS
+- [ ] Interatividade com JavaScript
+
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados:
+
+- Estrutura semântica em HTML;
+- Organização de projetos Front-end;
+- Responsividade;
+- Componentização de CSS;
+- Flexbox e CSS Grid;
+- Versionamento utilizando Git e GitHub.
+
+---
+
+## 👩‍💻 Autor
+
+Desenvolvido por **Natália** como projeto de estudos em Desenvolvimento Front-end.
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido exclusivamente para fins de estudo e aprendizado.
